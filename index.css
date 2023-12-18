@@ -1,0 +1,1045 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.fulll_con {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+}
+.header_con {
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  /* background-color: antiquewhite; */
+}
+.header_con .logo {
+  width: 30%;
+  height: 100%;
+  float: left;
+  /* background-color: blue; */
+}
+.header_con .ads {
+  width: 70%;
+  height: 100%;
+  float: left;
+  background-color: red;
+}
+.header_con .logo img {
+  height: 90%;
+  margin-top: 7px;
+}
+.header_con .ads img {
+  width: 100%;
+  height: 100%;
+  float: right;
+  /* margin-top: 10px; */
+}
+/* menu*/
+.full_menu {
+  width: 100%;
+  background-color: rgb(227, 49, 49);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.menu_bar {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+
+  /* background-color: bisque; */
+}
+.menu_bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu_bar ul li {
+  float: left;
+}
+.menu_bar ul li a {
+  display: black;
+  padding: 35px 25px;
+  color: white;
+  opacity: 0.5;
+  font-family: "Koulen";
+  font-size: 18px;
+  text-decoration: none;
+}
+.menu_bar ul li a:hover {
+  opacity: 1;
+}
+.homepage {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  box-shadow: 2px 2px 3px rgb(164, 114, 114);
+  /* background-color: green; */
+  margin-top: 10px;
+}
+.content {
+  width: 69%;
+  height: 500px;
+  float: left;
+  margin-right: 1%;
+  overflow: hidden;
+  /* background-color: brown; */
+}
+.cont_ads {
+  width: 30%;
+  height: 500px;
+  float: left;
+  /* background-color: aqua; */
+}
+.homepage .cont_ads .ads1 {
+  width: 100%;
+  height: 49%;
+  background-color: black;
+}
+.homepage .cont_ads .ads2 {
+  width: 100%;
+  margin-top: 2%;
+  height: 50%;
+  background-color: rgb(162, 255, 74);
+}
+.cont_ads .ads1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cont_ads .ads2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .content1 {
+  width: 60%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+  background-color: black;
+}
+.content .content2 {
+  width: 40%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+  background-color: rgb(255, 149, 149);
+}
+.bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content .sub-title {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(42, 67, 165);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Koulen";
+  font-size: 15px;
+  margin-top: 5px;
+  color: white;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+}
+.content .sub-title p {
+  transform: translateX(-10px);
+}
+.content h4 {
+  color: white;
+  transform: translateY(130px);
+  margin-left: 10px;
+  text-shadow: 3px 3px 4px black;
+  transition: 0.5s;
+  font-family: "Arial";
+  font-size: 14px;
+}
+.content1:hover h4 {
+  color: red;
+  transform: translateY(60px);
+}
+.content1 h4 span {
+  font-size: 12px;
+  line-height: 12px;
+  display: none;
+  font-family: "Battambang";
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.content1:hover h4 span {
+  line-height: 1.8;
+  color: white;
+  display: block;
+}
+
+.content1:hover h4 {
+  color: red;
+  transform: translateY(60px);
+}
+
+.content2:hover h4 {
+  color: red;
+  transform: translateY(40px);
+}
+.content2 h4 span {
+  font-size: 12px;
+  line-height: 12px;
+  display: none;
+  font-family: "Battambang";
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.content2:hover h4 span {
+  line-height: 1.8;
+  color: white;
+  display: block;
+}
+
+.content2:hover h4 {
+  color: red;
+  transform: translateY(40px);
+}
+.vd-content {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: brown; */
+}
+
+.vd-content .New_type {
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid blue;
+}
+.New_type .title {
+  width: 10%;
+  height: 100%;
+  float: left;
+  color: white;
+  background-color: blue;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.New_type .title h3 {
+  transform: translateX(-10px);
+}
+.sport_content {
+  width: 70%;
+  height: 810px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 2px 2px 3px rgb(164, 114, 114);
+  /* background-color: wheat; */
+  box-sizing: border-box;
+}
+.sport_content .box-top {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box-top .top1 {
+  width: 33%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.box-top .top1 .pic {
+  width: 100%;
+  height: 65%;
+  background-color: black;
+}
+.box-top .top1 .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.box-top .top1 .pic img:hover {
+  transform: scale(97%, 97%);
+}
+.top1 .des {
+  width: 100%;
+  height: 35%;
+}
+.des p {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 2px;
+  color: black;
+  font-family: "Battambang";
+}
+
+.sport_content .box-buttom .box_left {
+  width: 70%;
+  height: 495px;
+  float: left;
+  /* background-color: aquamarine; */
+}
+.sport_content .box-buttom .box_right {
+  width: 29%;
+  height: 495px;
+  margin-left: 1%;
+  float: left;
+  /* background-color: red; */
+}
+.box_left .top {
+  width: 100%;
+  height: 245px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top .small_box {
+  width: 24%;
+  height: 240px;
+  /* background-color: rgb(233, 153, 153); */
+}
+.small_box .pic {
+  width: 100%;
+  height: 140px;
+  float: left;
+  background-color: black;
+  /* background-color: red; */
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.pic img:hover {
+  transform: scale(97%, 97%);
+}
+.small_box .des {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-color: white;
+}
+.des p {
+  width: 100%;
+  height: 100%;
+  padding: 0px 5px;
+  font-family: "Battambang";
+  color: black;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.box_left .buttom {
+  width: 100%;
+  height: 245px;
+  margin-top: 5px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttom .small_box {
+  width: 24%;
+  height: 240px;
+}
+.box_right .top {
+  width: 100%;
+  height: 140px;
+  background-color: black;
+}
+.top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box_right .buttom {
+  width: 100%;
+  height: 330px;
+  margin-top: 5px;
+  background-color: pink;
+}
+.buttom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news-content {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: brown; */
+}
+
+.news-content .news_type {
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid brown;
+}
+.news_type .title {
+  width: 10%;
+  height: 100%;
+  float: left;
+  color: white;
+  background-color: rgb(132, 48, 48);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news_type .title h3 {
+  transform: translateX(-10px);
+}
+
+.komsan {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 2px 2px 3px rgb(164, 114, 114);
+  /* background-color: wheat; */
+  box-sizing: border-box;
+}
+.komsan .news_left {
+  width: 35%;
+  height: 380px;
+  float: left;
+  /* background-color: aquamarine; */
+}
+.komsan .news_right {
+  width: 64%;
+  height: 380px;
+  float: left;
+  margin-left: 1%;
+  /* background-color: blue; */
+}
+.news_left .pic {
+  width: 100%;
+  height: 250px;
+  border-radius: 3px;
+  background-color: black;
+}
+.news_left .des {
+  width: 100%;
+  height: 133px;
+  background-color: white;
+}
+.news_left .des p {
+  margin-top: 0px;
+  padding: 5px;
+  font-size: 17px;
+}
+.news_right .news_top {
+  width: 100%;
+  height: 188px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.news_top .news_small {
+  width: 24%;
+  height: 100%;
+  background-color: rgb(238, 213, 213);
+}
+.news_small .pic {
+  width: 100%;
+  height: 60%;
+  border-radius: 3px;
+}
+.news_small .des {
+  width: 100%;
+  height: 40%;
+  margin-top: 0px;
+  background-color: rgb(228, 235, 231);
+}
+.news_small .des p {
+  margin-top: 0px;
+  padding: 2px 2px;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+}
+.des p {
+  padding-right: 5px;
+}
+.news_right .news_buttom {
+  width: 100%;
+  margin-top: 4px;
+  height: 188px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.news_buttom .news_small {
+  width: 24%;
+  height: 100%;
+  background-color: rgb(238, 213, 213);
+}
+
+.tech-content {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: brown; */
+}
+
+.tech-content .tech_type {
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid rgb(47, 196, 216);
+}
+.tech_type .title {
+  width: 15%;
+  height: 100%;
+  float: left;
+  color: white;
+  background-color: rgb(58, 200, 236);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tech_type .title h3 {
+  transform: translateX(-10px);
+}
+
+.news-content {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: brown; */
+}
+
+.news-content .news_type {
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid brown;
+}
+.news_type .title {
+  width: 10%;
+  height: 100%;
+  float: left;
+  color: white;
+  background-color: rgb(132, 48, 48);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car_type .title h3 {
+  transform: translateX(-10px);
+}
+
+.car-content {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: brown; */
+}
+
+.car-content .car_type {
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid rgb(124, 165, 42);
+}
+.car_type .title {
+  width: 15%;
+  height: 100%;
+  float: left;
+  color: white;
+  background-color: rgb(132, 48, 98);
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car_type .title h3 {
+  transform: translateX(-10px);
+}
+.car_left {
+  width: 70%;
+  height: 380px;
+  float: left;
+  /* background-color: black; */
+}
+.car_left .car_top {
+  width: 100%;
+  height: 185px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.car_left .car_buttom {
+  width: 100%;
+  height: 185px;
+  float: left;
+  margin-top: 10px;
+  /* background-color: red; */
+}
+.car_right {
+  width: 29%;
+  height: 380px;
+  float: left;
+  margin-left: 1%;
+  /* background-color: black; */
+}
+.car_right .top_ads {
+  width: 100%;
+  height: 140px;
+  float: left;
+  margin-bottom: 5px;
+  background-color: brown;
+}
+.top_ads img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.top_ads img:hover {
+  transform: scale(98%, 99%);
+}
+
+.car_right .middle_ads {
+  width: 100%;
+  height: 90px;
+  background-color: bisque;
+  float: left;
+}
+.middle_ads img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  object-fit: cover;
+}
+.middle_ads img:hover {
+  transform: scale(98%, 99%);
+}
+.car_right .buttom_ads {
+  width: 100%;
+  height: 140px;
+  margin-top: 5px;
+  float: left;
+  background-color: rgb(215, 74, 74);
+}
+.buttom_ads img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  object-fit: cover;
+}
+.buttom_ads img:hover {
+  transform: scale(98%, 99%);
+}
+.car_top .car_small {
+  width: 24%;
+  height: 100%;
+  background-color: rgb(238, 213, 213);
+}
+.car_small .pic {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(0, 0, 0);
+  object-fit: cover;
+  border-radius: 3px;
+}
+.car_small .des {
+  width: 100%;
+  height: 40%;
+  margin-top: 0px;
+  font-size: 13px;
+  background-color: rgb(228, 235, 231);
+}
+.des p {
+  margin-top: 1px;
+  padding: 2px;
+}
+.car_left .car_buttom {
+  width: 100%;
+  height: 185px;
+  float: left;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.car_buttom .car_small {
+  width: 24%;
+  height: 100%;
+  background-color: rgb(238, 213, 213);
+}
+
+/* Footer menu */
+.footer {
+  width: 100%;
+  height: 210px;
+  margin-top: 5%;
+  background-color: black;
+}
+.footer_box {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+.footer_box .box1 {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+}
+.footer_box .box2 {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  /* background-color: red; */
+}
+.footer_box .box3 {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+}
+.box1 .pic {
+  height: 30%;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.box1 .pic img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+}
+.box1 .des p {
+  margin: 0px;
+  padding-left: 10px;
+  text-align: justify;
+  color: white;
+  font-size: 10px;
+  color: 10px;
+}
+.box2 .abu p b {
+  padding-left: 10px;
+  font-family: "Battambang";
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+.box2 .text {
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: -10px;
+  font-size: 10px;
+  color: white;
+}
+.box2 .icon {
+  width: 100%;
+  height: 50px;
+  /* background-color: antiquewhite; */
+}
+.box2 .icon ul li {
+  float: left;
+  padding-left: 1px;
+  margin: 10px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.icon ul li a {
+  color: white;
+  padding-left: 2px;
+}
+.box3 .abu p b {
+  padding-left: 30px;
+  font-family: "Battambang";
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+.box3 .fb {
+  width: 80%;
+  height: 30px;
+  margin-left: 30px;
+  background-color: red;
+}
+.box3 .email {
+  width: 80%;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 5px;
+  background-color: red;
+}
+.box3 .contact {
+  width: 80%;
+  margin-top: 5px;
+  height: 30px;
+  margin-left: 30px;
+  background-color: red;
+}
+.fb .fb_icon {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+}
+.email .email_icon {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+}
+.contact .contact_icon {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+}
+
+/* Komsan */
+.entertaiment_con{
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+}
+.entertaiment_con .left_con{
+  width: 65%;
+  overflow: hidden;
+  float: left;
+  /* background-color: green; */
+
+  
+}
+.entertaiment_con .left_con .tittle{
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid brown;
+}
+.entertaiment_con .left_con .tittle .box_tittle{
+  width: 15%;
+  height: 100%;
+  background-color:brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Battambang';
+  color: white;
+  font-size: 20px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 90%, 75% 0);
+}
+.entertaiment_con .left_con .tittle .box_tittle p{
+  /* margin: 0; */
+  transform: translateX(-10px);
+}
+.entertaiment_con .left_con .komsan-new_item{
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgb(132, 48, 98);
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+.komsan-new_item .k_top{
+  width: 100%;
+  height: 250px;
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.komsan-new_item .k_top .k_box{
+  width: 49%;
+  height: 100%;
+  background-color: black;
+}
+.k_top .k_box .picture{
+  width: 100%;
+  height: 70%;
+  background-color: wheat;
+}
+.k_top .k_box .picture img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.k_top .k_box .picture img:hover{
+  transform: scale(97%,97%);
+}
+.k_top .k_box .sub-title{
+  width: 100%;
+  height: 30%;
+}
+.k_top .k_box .sub-title p{
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 10px;
+  color: white;
+  line-height: 30px;
+  font-family: 'Battambang';
+  font-weight: bold;
+  
+}
+.komsan-new_item .text_box{
+  width: 100%;
+  margin-top: 10px;
+  height: 150px;
+  /* background-color: red; */
+}
+.text_box .images{
+  width: 35%;
+  height: 100%;
+  float: left;
+  background-color: pink;
+}
+.text_box .images img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.text_box .images img:hover{
+  transform: scale(97%,97%);
+}
+.text_box .descrip{
+  width: 65%;
+  height: 100%;
+  float: left;
+  /* background-color: blue; */
+}
+.text_box .descrip p{
+  font-size: 15px;
+  margin-left: 10px;
+  text-align: justify;
+  line-height: 30px;
+  margin-right: 10px;
+  font-family: 'Battambang';
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.text_box .descrip  small{
+  font-size: 14px;
+  margin-top: 0;
+  margin-left: 10px;
+  font-family: 'Battambang';
+  font-weight: bold;
+}
+.entertaiment_con .right_con{
+  width: 33%;
+  overflow: hidden;
+  float: left;
+  /* background-color: blue; */
+  margin-left: 2%;
+}
+.entertaiment_con .right_con .advert{
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  /* background-color: black; */
+}
+.entertaiment_con .right_con .advert .advert_top{
+  width: 100%;
+  height: 70px;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+.advert_top img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.advert_top img:hover{
+  transform: scale(97%, 97%);
+}
+.advert .advert_middle{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  /* background-color: whitesmoke; */
+}
+.advert .advert_bottom{
+  width: 40%;
+  height: 50px; 
+}
+.advert_middle img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.advert_middle img:hover{
+  transform: scale(97%, 97%);
+}
+
+.bottom_ads p{
+  font-size: 25px;
+  margin-top: 20px;
+  color: black;
+  font-family: 'Battambang';
+  font-weight: bold;
+  border-bottom: 2px solid rgb(69, 95, 237);
+  margin-bottom: 20px;
+}
+.advert .adv-box{
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+  /* background-color: blue; */
+}
+.adv-box .adv_box1{
+  width: 20%;
+  height: 60%;
+  float: left;
+  background-color: rgb(0, 0, 0);
+}
+.adv-box .adv_box1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.adv-box .adv_box1 img:hover{
+  transform: scale(97%, 97%);
+}
+.adv-box .adv_box2{
+  width: 80%;
+  height: 100%;
+  float: left;
+  margin-bottom: 10px;
+  /* background-color: rgb(125, 90, 90); */
+}
+.adv_box2 .adv_des{
+  width: 100%;
+  height: 100%;
+}
+.adv_des p{
+  width: 100%;
+  margin-top: 0px;
+  font-size: 13px;
+  font-family: 'Battambang';
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+
+
+
